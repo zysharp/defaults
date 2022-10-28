@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7</TargetFramework>
+
+    <RestoreLockedMode Condition="'$(ContinuousIntegrationBuild)' == 'true'" />
+
+    <OutputType>Exe</OutputType>
+    <IsPublishable>false</IsPublishable>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="packages.lock.json" Visible="false" />
+  </ItemGroup>
+
+</Project>
