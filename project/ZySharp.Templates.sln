@@ -10,6 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Directory.Packages.props = Directory.Packages.props
 		global.json = global.json
 		NuGet.Config = NuGet.Config
+		version.json = version.json
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZySharp.Template", "ZySharp.Template\ZySharp.Template.csproj", "{C86CE3DE-E88F-4EC2-8BD1-10C34590DA59}"
