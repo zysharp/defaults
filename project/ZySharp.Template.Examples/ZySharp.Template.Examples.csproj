@@ -14,4 +14,8 @@
     <None Include="packages.lock.json" Visible="false" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ZySharp.Template\ZySharp.Template.csproj" />
+  </ItemGroup>
+
 </Project>
