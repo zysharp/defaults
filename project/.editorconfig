@@ -1033,7 +1033,7 @@ csharp_style_prefer_tuple_swap = true
 # IDE0160: Use block-scoped namespace
 dotnet_diagnostic.IDE0160.severity = none
 # IDE0161: Use file-scoped namespace
-dotnet_diagnostic.IDE0161.severity = suggestion
+dotnet_diagnostic.IDE0161.severity = warning
 # IDE0160 and IDE0161
 csharp_style_namespace_declarations = file_scoped
 
